@@ -7,7 +7,6 @@ on:
   workflow_dispatch:
     inputs:
       deploy:
-        description: 'Should deploy'
         required: false
         default: "true"
   pull_request:
